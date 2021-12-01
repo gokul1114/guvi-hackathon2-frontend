@@ -1,0 +1,182 @@
+/* :root{
+  --background-green : rgb(9, 243, 48);
+  --background-black : black;
+  --navbar-margin : 8px;
+  --navigation-height : 7vh;
+} */
+* {
+  margin : 0
+}
+body{
+  background-color: black;
+}
+
+div{
+  margin : 0px
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(9, 243, 48);
+  padding: 8px;
+  height : 7vh 
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.navigation-list-item {
+  list-style: none;
+  align-self: center;
+}
+
+a {
+  text-decoration: none !important;
+  color : black
+}
+.admin-options a{
+  color : rgb(9, 243, 48) !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* .login-button {
+  margin : 5px !important;
+} */
+
+.landing-page-container {
+  height: calc(100vh - 7vh - 5%);
+  padding-top: 5%;
+  background-color: black;
+}
+
+.landing-page-title,h1{
+  color : rgb(9, 243, 48);
+  font-size: 15vh;
+  font-family: cursive;
+}
+
+.landing-page-description {
+  color : white;
+  font-style : italic;
+  font-size : 40px;
+  text-align: right;
+  padding-right: 10%;
+}
+
+
+
+/* DisplayProduct */
+
+.container {
+  display : flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: transparent;
+  margin: 2%
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid rgb(9, 243, 48);
+  margin : 1% 1%;
+  width: 25%;
+  margin : 2%;
+  padding: 1%;
+}
+.card-text {
+  opacity: 1;
+}
+
+/* .card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+} */
+
+.card-img-top{
+  width: 100%;
+}
+
+.card-title{
+  text-align: center;
+  color : white;
+  font-size : 20px
+}
+
+.card:hover .btn {
+  opacity: 1;
+} 
+.card-subtitle {
+  text-align: center;
+  color : white !important;
+}
+.rating {
+  color : gold !important
+}
+
+.add-to-cart-btn {
+  margin-top: 10%;
+  width: 50%;
+  padding: 5px;
+  background-color: transparent!important;
+  border: 1px solid rgb(9, 243, 48)!important;
+  color: rgb(9, 243, 48)!important;
+}
+
+.add-to-cart-btn:hover {
+ cursor: pointer;
+ background-color: rgb(9, 243, 48)!important;
+ color : black!important;
+ font-weight : bold;
+}
+
+.buttonAlign{
+  display: flex;
+  justify-content: center;
+}
+
+.inputName{
+  display: block !important;
+  background-color: white!important;
+  margin-bottom: 15% !important;
+}
+
+.password{
+  display: block !important;
+  background-color: white!important;
+  margin-bottom: 15% !important;
+}
+
+.signUp button{
+  display: block !important;
+  background-color: rgb(9, 243, 48);
+  color : black
+}
+
+.signUp {
+  margin-top: 1% !important;
+  display: flex;
+  justify-content: center;
+  
+}
+.add-product-form{
+  margin-top: 1% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.add-product-input{
+  display: block !important;
+  background-color: white!important;
+  margin-bottom: 15% !important;
+}
+
+.add-product-form button{
+  display: block !important;
+  background-color: rgb(9, 243, 48);
+  color : black
+}

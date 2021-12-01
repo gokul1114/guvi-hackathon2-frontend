@@ -1,0 +1,15 @@
+[
+    {
+        "productName":"camera",
+        "productPricePerHour":50,
+        "productPricePerDay":200,
+        "totalQuantity":5,
+        "availableQuantity":3,
+        "rating" : "⭐⭐⭐",
+        "category" : "home",
+        "productDescript":"this is a bla bla bla product",
+        "productImage" : "",
+        "deliveryTime" : "3 days",
+        "productSpecs" : ["this is a product", "it has many features"]
+    }
+]
